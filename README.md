@@ -1,15 +1,15 @@
-# ⛄ VGASP‑Snowman
-
-A Playful, System‑Agnostic Demonstration of Deterministic AI Steering
+# ⛄ VGASP‑Snowman  
+### A Playful, System‑Agnostic Demonstration of Deterministic AI Steering  
+### With Pedagogy, Tone Axis, and Epistemic Clarity
 
 VGASP‑Snowman began with a CEO dialog — a conversation about why the CEO of
-OpenAI never talks publicly about manifolds, geometric AI, holonomy,
+OpenAI never talks publicly about **manifolds**, **geometric AI**, **holonomy**,  
 or the mathematical structures that actually govern high‑dimensional generative
 systems.
 
 Immediately afterward, you asked Google:
 
-“Do you want to build a snowman?”
+**“Do you want to build a snowman?”**
 
 That playful question unexpectedly opened the door to tensor geometry,
 invariants, curvature, and governance surfaces. The Snowman became the test
@@ -18,7 +18,7 @@ ordering, and coherence under transformation.
 
 A prototype PDF captured the first conceptual mapping:
 
-* 📄 docs/prototype/prototype.pdf
+* 📄 `docs/prototype/prototype.pdf`
 
 Right after finishing a VGASP preprint, the entire Snowman experiment was fed
 back into Copilot. The result was unexpectedly powerful: a compact, accessible
@@ -29,117 +29,175 @@ VGASP‑Snowman is the artifact of that transformation.
 
 ---
 
-🎯 Purpose
+## 🎓 Pedagogy: Why Two Explainable Layers Exist
+
+VGASP‑Snowman includes **two pedagogical explainers**, each designed to teach
+geometric‑AI steering from a different cognitive angle.
+
+### **1. Bill Nye + Attenborough Color Tile Explainer**  
+📄 `docs/explainers/vgasp-snowman-bill-nye-attenborough-tiles.md`
+
+This explainer uses:
+
+- Bill Nye → science‑show clarity  
+- David Attenborough → nature‑documentary calm  
+- Color tiles → cognitive chunking  
+- Emojis → expressive clarity  
+- $$\LaTeX$$ → mathematical grounding  
+
+It teaches geometric AI through approachable metaphors:
+Voronoi bees, gradient goats, holonomy loops, winter curvature.
+
+### **2. Holonomy Winter Meadow Explainer (AI‑Explicit)**  
+📄 `docs/explainers/vgasp-snowman-holonomy-winter-meadow-tiles.md`
+
+This explainer makes the AI mapping explicit:
+
+- Bees → region partitioning (Voronoi)  
+- Goats → gradient descent (loss landscape)  
+- Holonomy → path‑dependent inference  
+- Curvature → model nonlinearity  
+- Snow → latent manifold  
+
+It teaches **epistemic clarity**:  
+how geometric structures shape AI behavior.
+
+---
+
+## 🎨 Tone Axis: How the Repo Communicates
+
+VGASP‑Snowman intentionally uses a **tone axis** to make geometric AI accessible:
+
+| Tone | Purpose |
+|------|---------|
+| ❄️ Playful | Lower cognitive barrier; metaphor-first learning |
+| 🔬 Scientific | Bill Nye-style clarity; stepwise reasoning |
+| 🌿 Naturalistic | Attenborough-style intuition; embodied geometry |
+| 📐 Formal | Mathematical precision; governance alignment |
+| 🧭 Governance | Deterministic steering; constraint logic |
+
+The README sits at the **center** of the tone axis.  
+The explainers occupy the **edges** to maximize pedagogical reach.
+
+---
+
+## 🔍 Epistemic Clarity Lenses
+
+VGASP‑Snowman teaches geometric AI through **three epistemic lenses**:
+
+### **1. Spatial Lens**  
+How AI divides, shapes, and navigates space.  
+(Voronoi, curvature, invariants)
+
+### **2. Dynamical Lens**  
+How AI moves through its manifold.  
+(Gradient descent, dissipation, stability)
+
+### **3. Holonomy Lens**  
+How AI accumulates path‑dependent memory.  
+(Loops, orientation change, inference drift)
+
+Each explainer emphasizes different lenses.
+
+---
+
+## 🎯 Purpose
 
 VGASP‑Snowman demonstrates how deterministic AI steering works through a
 metaphor:
 
-* ❄️ Invariants → the three stacked spheres  
-* 🔄 Operator ordering → roll → stack → decorate  
-* 🧭 Constraint fields → allowable transformation regions  
-* 🫠 Dissipation → melting as structured decay  
-* 🧱 Stability → preventing runaway cascades  
-* 🌿 Module linkage → arms, nose, decorations  
-* 🚫 Banned constructs → unsafe generative outputs  
+* ❄️ **Invariants** → the three stacked spheres  
+* 🔄 **Operator ordering** → roll → stack → decorate  
+* 🧭 **Constraint fields** → allowable transformation regions  
+* 🫠 **Dissipation** → melting as structured decay  
+* 🧱 **Stability** → preventing runaway cascades  
+* 🌿 **Module linkage** → arms, nose, decorations  
+* 🚫 **Banned constructs** → unsafe generative outputs  
 
-The Snowman is not the point — the governance logic is.  
+The Snowman is not the point — the **governance logic** is.  
 The metaphor simply makes the structure visible.
 
 ---
 
-📁 Repository Structure (GitHub‑Safe Bullets + Emojis)
+## 📁 Repository Structure (GitHub‑Safe Bullets + Emojis)
 
-* 📘 README.md
-* 📚 docs/
-  * 📝 explainers/
-    * ⛄ vgasp-snowman-case-study.md
-  * 🔒 governance/
-    * 📑 vgasp-snowman-constraints.md
-  * 🧠 advanced/
-    * 🏗️ vgasp-snowman-architecture.md
-    * 📐 vgasp-snowman-math.tex
-  * 🧾 prototype/
-    * 📄 prototype.pdf
-  * 🧬 provenance/
-    * 🪪 vgasp-snowman-provenance.md
-* 🧩 src/
-  * 🌐 system-agnostic/
-    * 🎨 visual-grammar.json
-    * ⚙️ vgasp-snowman-logic.json
-    * 🔧 vgasp-snowman-operators.json
-* 🧪 examples/
+* 📘 **README.md**
+* 📚 **docs/**
+  * 📝 **explainers/**
+    * 🎨 `vgasp-snowman-bill-nye-attenborough-tiles.md`
+    * ❄️ `vgasp-snowman-holonomy-winter-meadow-tiles.md`
+    * ⛄ `vgasp-snowman-case-study.md`
+  * 🔒 **governance/**
+    * 📑 `vgasp-snowman-constraints.md`
+  * 🧠 **advanced/**
+    * 🏗️ `vgasp-snowman-architecture.md`
+    * 📐 `vgasp-snowman-math.tex`
+  * 🧾 **prototype/**
+    * 📄 `prototype.pdf`
+  * 🧬 **provenance/**
+    * 🪪 `vgasp-snowman-provenance.md`
+* 🧩 **src/**
+  * 🌐 **system-agnostic/**
+    * 🎨 `visual-grammar.json`
+    * ⚙️ `vgasp-snowman-logic.json`
+    * 🔧 `vgasp-snowman-operators.json`
+* 🧪 **examples/**
   * 🐍 python/
-    * build_snowman.py
-    * melt_snowman.py
-    * repair_snowman.py
   * 🦀 rust/
-    * snowman_demo.rs
   * 🟦 typescript/
-    * snowman_demo.ts
-* 🖼️ assets/
+* 🖼️ **assets/**
   * 🧭 diagrams/
-    * snowman-operator-ordering.png
-    * invariant-surface.png
   * 🎭 icons/
-    * snowman.svg
 
 ---
 
-📐 Embedded Mathematical Backbone (Using $$ LaTeX)
+## 📐 Embedded Mathematical Backbone (GitHub‑Safe $$ LaTeX)
 
-Invariant Manifold
-
+### Invariant Manifold
 $$
-I(x) = \{ x \in \mathbb{R}^3 \mid r1, r2, r_3 > 0 \}
-$$
-
-Operator Ordering
-
-$$
-O1 \prec O2 \prec O_3
+I(x) = \{\, x \in \mathbb{R}^3 \mid r_1, r_2, r_3 > 0 \,\}
 $$
 
-with:
-
+### Operator Ordering
 $$
-O_1 = \text{roll}, \quad
-O_2 = \text{stack}, \quad
-O_3 = \text{decorate}
+O_1 \prec O_2 \prec O_3
 $$
 
-Constraint Field
+### Operator Definitions
+$$
+O_1 = \mathrm{roll},\quad
+O_2 = \mathrm{stack},\quad
+O_3 = \mathrm{decorate}
+$$
 
+### Constraint Field
 $$
 C(x) \in \mathbb{R}^n
 $$
 
-Dissipation
-
+### Dissipation
 $$
 \frac{dS}{dt} \le 0
 $$
 
-Stability
-
+### Stability
 $$
 \rho(J) < 1
 $$
 
-Module Linkage
-
+### Module Linkage
 $$
-Mi \leftrightarrow Mj
+M_i \leftrightarrow M_j
 $$
 
-Banned Constructs
-
+### Banned Constructs
 $$
-B = \{ b \mid b \notin \text{SafeDomain} \}
+B = \{\, b \mid b \notin \mathrm{SafeDomain} \,\}
 $$
 
 ---
 
-🧬 Origin Story
+## 🧬 Origin Story
 
 VGASP‑Snowman exists because:
 
@@ -153,39 +211,32 @@ It is the moment where expressive clarity, geometry, governance, and humor align
 
 ---
 
-📜 Licensing
+## 📜 Licensing (MIT)
 
-This repository is released under the MIT License.
-
-The MIT License allows:
+This repository is released under the **MIT License**, allowing:
 
 * ✔️ commercial use  
 * ✔️ modification  
 * ✔️ distribution  
 * ✔️ private use  
 
-With the following requirements:
+Requirements:
 
-* ⚖️ you must include the original copyright notice  
-* ⚖️ you must include the license text in any substantial redistribution  
+* ⚖️ include the original copyright notice  
+* ⚖️ include the license text in redistributions  
 
-VGASP‑Snowman is intentionally MIT‑licensed to ensure:
-
-* open educational access  
-* unrestricted research use  
-* compatibility with academic and industry tooling  
-* freedom to extend, remix, or integrate the Snowman metaphor into other governance‑aligned systems  
-
-The prototype PDF, diagrams, JSON governance surfaces, LaTeX math backbone, and example code are all covered under the same MIT terms.
-`
+All artifacts — diagrams, JSON governance surfaces, LaTeX math, explainers,
+and prototype PDF — are covered under MIT.
 
 ---
 
-🧾 Provenance
+## 🧾 Provenance
 
-Created by Borealis S. Hedling  
-Dublin, Ireland — 06 October 2026
+Created by **Borealis S. Hedling**  
+Dublin, Ireland — **06 October 2026**
 
-VGASP‑Snowman is part of the Vectorium v5.0 educational suite, demonstrating deterministic AI steering through a Snowman metaphor while preserving full system‑agnostic governance integrity.
+VGASP‑Snowman is part of the Vectorium v5.0 educational suite, demonstrating
+deterministic AI steering through a Snowman metaphor while preserving full
+system‑agnostic governance integrity.
 
 ---
