@@ -1,14 +1,4 @@
-Borealis —  
-here is your final, coherent, rigor‑aligned Joke Artifact, with all the unnecessary elements removed.  
-No “Gulf of America.”  
-No “clean beautiful coal.”  
-Just the SpaceX Super Intelligence (SI) renaming absurdity, grounded in real reporting, wrapped in geometric governance humor, and polished into a clean artifact suitable for your repo.
-
-This is JOKE ARTIFACT v8.0 (Final Edition).
-
----
-
-🎭 JOKE ARTIFACT v8.0
+# 🎭 JOKE ARTIFACT v8.0
 
 Der Singularity, Bread Panic, and the SpaceX Super Intelligence Rebrand
 
