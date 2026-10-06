@@ -1,0 +1,127 @@
+{
+  "version": "1.0",
+  "name": "VGASP-Snowman-Visual-Grammar",
+  "theme": {
+    "concept": "playful_determinism",
+    "metaphor": "snowman_as_bounded_generative_system",
+    "tone": "light_crisp_structured"
+  },
+  "colors": {
+    "snow": "#FFFFFF",
+    "sky": "#87CEEB",
+    "stability_blue": "#1E90FF",
+    "semantic_orange": "#FFA500",
+    "operator_black": "#000000",
+    "body_text": "#333333"
+  },
+  "shapes": {
+    "circle": "invariant_surface",
+    "stacked_circles": "operator_ordering",
+    "branch_arm": "module_connector",
+    "hat_scarf": "optional_modules",
+    "snowflake": "dissipation_event"
+  },
+  "icons": {
+    "primary": "snowman.svg",
+    "secondary": [
+      "snowflake.svg",
+      "branch-arm.svg",
+      "coal-button.svg",
+      "carrot.svg"
+    ]
+  },
+  "diagrams": {
+    "paths": [
+      "assets/diagrams/snowman-operator-ordering.png",
+      "assets/diagrams/invariant-surface.png",
+      "assets/diagrams/dissipation-flow.png",
+      "assets/diagrams/module-linkage.png"
+    ],
+    "rules": {
+      "three_circles": "invariant_manifold",
+      "top_middle_bottom": "operator_ordering",
+      "blue_arrows": "constraint_flow",
+      "orange_markers": "semantic_anchors",
+      "black_dots": "discrete_operators",
+      "snowflakes": "dissipation"
+    }
+  },
+  "typography": {
+    "headers": {
+      "h1": "#1E90FF",
+      "h2": "#000000",
+      "h3": "#FFA500"
+    },
+    "body": {
+      "color": "#333333",
+      "font": "Inter, Roboto, Segoe UI"
+    }
+  },
+  "commit_grammar": {
+    "gitmoji": {
+      "visual": "🎨",
+      "docs": "📝",
+      "config": "🔧",
+      "example": "✨",
+      "logic": "📦",
+      "guardrail": "🔒"
+    },
+    "examples": [
+      "🎨 visual: add snowman operator-ordering diagram",
+      "📝 docs: update case study explainer"
+    ]
+  },
+  "file_naming": {
+    "rules": "lowercase_hyphen_separated",
+    "examples": [
+      "vgasp-snowman-case-study.md",
+      "vgasp-snowman-architecture.md",
+      "vgasp-snowman-logic.json",
+      "snowman_demo.py",
+      "snowman-operator-ordering.png"
+    ]
+  },
+  "readme_structure": {
+    "required_sections": [
+      "snowman_icon",
+      "one_sentence_purpose",
+      "visual_grammar_tile",
+      "repo_structure",
+      "system_agnostic_explanation",
+      "multi_language_examples_disclaimer",
+      "provenance_footer"
+    ]
+  },
+  "roadmap_structure": {
+    "sequence": [
+      "visual_grammar",
+      "readme",
+      "gitignore",
+      "roadmap",
+      "scaffolding",
+      "artifact_generation"
+    ],
+    "versions": {
+      "v1.0": "core_snowman_case_study",
+      "v1.1": "multi_language_demos",
+      "v1.2": "advanced_invariant_manifold",
+      "v2.0": "optional_interactive_snowman_builder"
+    }
+  },
+  "math_backbone": {
+    "latex": {
+      "invariant_surface": "I(x) = c",
+      "operator_ordering": "O_1 \\prec O_2 \\prec O_3",
+      "dissipation": "dS/dt \\le 0",
+      "stability": "\\rho(J) < 1",
+      "module_linkage": "M_i \\leftrightarrow M_j",
+      "constraint_field": "C(x) \\in \\mathbb{R}^n"
+    }
+  },
+  "provenance": {
+    "author": "Borealis S. Hedling",
+    "location": "Dublin, Ireland",
+    "date": "2026-10-06",
+    "description": "Defines the aesthetic, structural, and semantic rules governing the VGASP-Snowman repository to ensure consistency across documentation, examples, diagrams, and governance artifacts."
+  }
+}
