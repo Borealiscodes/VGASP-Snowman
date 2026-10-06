@@ -1,0 +1,111 @@
+\documentclass{article}
+\usepackage{amsmath, amssymb}
+
+\title{VGASP-Snowman: Mathematical Backbone}
+\author{Borealis S. Hedling}
+\date{06 October 2026}
+
+\begin{document}
+\maketitle
+
+\section{Introduction}
+The VGASP-Snowman model provides a playful yet rigorous demonstration of
+deterministic AI steering. The Snowman metaphor encodes governance concepts
+such as invariants, operator ordering, dissipation, stability, constraint
+fields, and multi-module linkage. This document formalizes these structures
+mathematically.
+
+\section{Invariant Manifold}
+The Snowman is represented as a three-sphere invariant manifold:
+\[
+I(x) = \{ x \in \mathbb{R}^3 \mid r_1, r_2, r_3 > 0 \},
+\]
+where each radius \( r_i \) corresponds to a structural invariant. These
+invariants define the allowable configuration space for generative behavior.
+
+\section{Operator Ordering}
+Snowman assembly follows a strict operator ordering:
+\[
+O_1 \prec O_2 \prec O_3,
+\]
+with:
+\[
+O_1 = \text{roll}, \quad
+O_2 = \text{stack}, \quad
+O_3 = \text{decorate}.
+\]
+This ordering enforces deterministic sequencing and prevents generative drift.
+
+\section{Constraint Field}
+A constraint field governs permissible transformations:
+\[
+C(x) \in \mathbb{R}^n,
+\]
+where each constraint \( C_i(x) \) corresponds to a governance rule. The field
+ensures that generative outputs remain within safe and bounded domains.
+
+\section{Dissipation Model}
+Melting is modeled as a dissipation process:
+\[
+\frac{dS}{dt} \le 0,
+\]
+where \( S \) denotes structural stability. Dissipation ensures that destructive
+transformations follow predictable thermodynamic behavior.
+
+\section{Stability Condition}
+Snowman stability requires:
+\[
+\rho(J) < 1,
+\]
+where \( J \) is the Jacobian of the generative transformation. This condition
+ensures local stability and prevents runaway generative cascades.
+
+\section{Module Linkage}
+Arms, nose, and decorations attach via module linkage:
+\[
+M_i \leftrightarrow M_j,
+\]
+ensuring multi-module consistency. Linkage rules prevent incompatible module
+combinations and enforce structural coherence.
+
+\section{Banned Constructs}
+Forbidden generative constructs are encoded as:
+\[
+B = \{ b \mid b \notin \text{SafeDomain} \},
+\]
+and enforced via VGASP’s governance firewall. This prevents unsafe or
+non-compliant generative outputs.
+
+\section{Conclusion}
+The VGASP-Snowman mathematical backbone demonstrates how playful metaphors can
+encode rigorous governance principles. Invariants, operator ordering,
+constraint fields, dissipation, stability, and module linkage collectively
+illustrate deterministic AI steering in a system-agnostic manner.
+
+\section{References}
+
+\begin{thebibliography}{9}
+
+\bibitem{dai2026assured}
+T.~Dai, D.~Simchi-Levi, M.~X.~Wu, and Y.~Xie,
+\textit{Assured autonomy: How operations research powers and orchestrates generative AI systems}.
+Production and Operations Management, vol.~35, no.~10, pp.~3579–3596, 2026.
+
+\bibitem{smith2026deterministic}
+C.~B.~Smith and D.~McCarthy,
+\textit{Deterministic governance for generative systems: a policy-aligned runtime for validating AI outputs}.
+AI and Ethics, Springer Nature, 2026.
+
+\bibitem{kuai2026governance}
+J.~Kuai and F.~Ferrari,
+\textit{Generative AI governance: from regulatory design to institutional reordering}.
+Information, Communication \& Society, vol.~29, no.~6, pp.~1803–1812, 2026.
+
+\bibitem{dai2025arxiv}
+T.~Dai, D.~Simchi-Levi, M.~X.~Wu, and Y.~Xie,
+\textit{Assured Autonomy: How Operations Research Powers and Orchestrates Generative AI Systems}.
+arXiv preprint arXiv:2512.23978, 2025.
+
+\end{thebibliography}
+
+\end{document}
