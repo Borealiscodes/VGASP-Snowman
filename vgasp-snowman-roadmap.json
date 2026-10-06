@@ -1,0 +1,160 @@
+{
+  "roadmap_version": "2.0",
+  "existing_artifacts": {
+    "root": ["README.md"],
+    "docs": {
+      "explainers": [
+        "vgasp-snowman-bill-nye-attenborough-tiles.md",
+        "vgasp-snowman-holonomy-winter-meadow-tiles.md"
+      ],
+      "advanced": [
+        "vgasp-snowman-math.tex"
+      ],
+      "prototype": [
+        "prototype.pdf"
+      ],
+      "provenance": []
+    },
+    "src": {
+      "system-agnostic": [
+        "visual-grammar.json"
+      ],
+      "examples": [],
+      "assets": []
+    }
+  },
+
+  "missing_artifacts": [
+    {
+      "id": "explainer.tensor_snowman",
+      "path": "docs/explainers/vgasp-snowman-tensor-snowman.md",
+      "priority": "high",
+      "depends_on": ["docs/advanced/vgasp-snowman-math.tex"],
+      "description": "Tensor geometry explainer connecting invariants, curvature, and manifold structure."
+    },
+    {
+      "id": "explainer.operator_ordering",
+      "path": "docs/explainers/vgasp-snowman-operator-ordering.md",
+      "priority": "high",
+      "depends_on": ["docs/advanced/vgasp-snowman-math.tex"],
+      "description": "Explainer detailing roll → stack → decorate operator ordering and deterministic steering."
+    },
+    {
+      "id": "explainer.curvature_snowman",
+      "path": "docs/explainers/vgasp-snowman-curvature.md",
+      "priority": "medium",
+      "depends_on": ["docs/advanced/vgasp-snowman-math.tex"],
+      "description": "Explainer showing how curvature fields shape Snowman stability and holonomy."
+    },
+    {
+      "id": "governance.constraints",
+      "path": "docs/governance/vgasp-snowman-constraints.md",
+      "priority": "high",
+      "depends_on": [],
+      "description": "Constraint field definitions and governance surfaces."
+    },
+    {
+      "id": "governance.invariant_surface",
+      "path": "docs/governance/vgasp-snowman-invariant-surface.md",
+      "priority": "medium",
+      "depends_on": ["governance.constraints"],
+      "description": "Invariant surfaces and allowable transformation regions."
+    },
+    {
+      "id": "governance.dissipation",
+      "path": "docs/governance/vgasp-snowman-dissipation.md",
+      "priority": "medium",
+      "depends_on": ["docs/advanced/vgasp-snowman-math.tex"],
+      "description": "Dissipation rules and structured decay governance."
+    },
+    {
+      "id": "governance.banned_constructs",
+      "path": "docs/governance/vgasp-snowman-banned-constructs.md",
+      "priority": "high",
+      "depends_on": ["governance.constraints"],
+      "description": "Definition of unsafe generative outputs and enforcement logic."
+    },
+    {
+      "id": "advanced.architecture",
+      "path": "docs/advanced/vgasp-snowman-architecture.md",
+      "priority": "medium",
+      "depends_on": ["docs/advanced/vgasp-snowman-math.tex"],
+      "description": "Architecture document describing system-agnostic Snowman governance."
+    },
+    {
+      "id": "provenance.record",
+      "path": "docs/provenance/vgasp-snowman-provenance.md",
+      "priority": "low",
+      "depends_on": [],
+      "description": "Provenance record for Snowman development and evolution."
+    },
+    {
+      "id": "json.logic",
+      "path": "src/system-agnostic/vgasp-snowman-logic.json",
+      "priority": "medium",
+      "depends_on": ["docs/advanced/vgasp-snowman-math.tex"],
+      "description": "Formal logic definitions for Snowman operators and constraints."
+    },
+    {
+      "id": "json.operators",
+      "path": "src/system-agnostic/vgasp-snowman-operators.json",
+      "priority": "medium",
+      "depends_on": ["json.logic"],
+      "description": "Operator definitions and ordering rules."
+    },
+    {
+      "id": "examples.python",
+      "path": "src/examples/python/",
+      "priority": "low",
+      "depends_on": ["json.logic", "json.operators"],
+      "description": "Python examples demonstrating Snowman build, melt, and repair logic."
+    },
+    {
+      "id": "examples.rust",
+      "path": "src/examples/rust/",
+      "priority": "low",
+      "depends_on": ["json.logic", "json.operators"],
+      "description": "Rust examples demonstrating Snowman governance logic."
+    },
+    {
+      "id": "examples.typescript",
+      "path": "src/examples/typescript/",
+      "priority": "low",
+      "depends_on": ["json.logic", "json.operators"],
+      "description": "TypeScript examples demonstrating Snowman operator ordering."
+    },
+    {
+      "id": "assets.diagrams",
+      "path": "src/assets/diagrams/",
+      "priority": "low",
+      "depends_on": [],
+      "description": "Diagram assets for Snowman invariants, curvature, and operator ordering."
+    },
+    {
+      "id": "assets.icons",
+      "path": "src/assets/icons/",
+      "priority": "low",
+      "depends_on": [],
+      "description": "Icon assets for Snowman UI and documentation."
+    }
+  ],
+
+  "generation_order": [
+    "explainer.tensor_snowman",
+    "explainer.operator_ordering",
+    "governance.constraints",
+    "governance.banned_constructs",
+    "explainer.curvature_snowman",
+    "governance.invariant_surface",
+    "governance.dissipation",
+    "advanced.architecture",
+    "provenance.record",
+    "json.logic",
+    "json.operators",
+    "examples.python",
+    "examples.rust",
+    "examples.typescript",
+    "assets.diagrams",
+    "assets.icons"
+  ]
+}
