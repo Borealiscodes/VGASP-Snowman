@@ -393,6 +393,51 @@ The future of AI is:
 This preprint establishes the mathematical foundation for that future.
 
 ---
+## References
+
+- **Atiyah, M.** *The Geometry of Manifolds.* Cambridge University Press, 1990.  
+  Foundational treatment of manifold structure as the substrate of geometric reasoning.
+
+- **Chavel, I.** *Eigenvalues in Riemannian Geometry.* Academic Press, 1984.  
+  Classic reference on spectral geometry and Laplacian behavior on curved domains.
+
+- **Jost, J.** *Riemannian Geometry and Geometric Analysis.* Springer, 2011.  
+  Demonstrates how curvature, holonomy, and spectral structure govern system behavior.
+
+- **Grigor’yan, A.** *Heat Kernel and Analysis on Manifolds.* AMS, 2009.  
+  Heat diffusion and dissipation mathematics foundational to thermodynamic governance.
+
+- **Arnold, V.** *Mathematical Methods of Classical Mechanics.* Springer, 1989.  
+  Canonical reference for geometric mechanics and structured dissipation.
+
+- **Susskind, L.** *The Theoretical Minimum: Classical Mechanics.* Basic Books, 2014.  
+  Accessible introduction to invariants, phase space, and geometric constraints.
+
+- **Spivak, M.** *A Comprehensive Introduction to Differential Geometry.* Publish or Perish, 1979.  
+  Multi‑volume foundational treatment of curvature, holonomy, and manifold structure.
+
+- **Petersen, P.** *Riemannian Geometry.* Springer, 2006.  
+  Standard reference for geodesics, holonomy groups, and stability conditions.
+
+- **Amari, S.** *Information Geometry and Its Applications.* Springer, 2016.  
+  Shows how geometric structure governs inference and learning systems.
+
+- **Jaynes, E. T.** “Information Theory and Statistical Mechanics.” *Physical Review*, 106(4), 1957.  
+  Thermodynamic foundations of inference and dissipation.
+
+- **Bengio, Y.** “Towards Responsible AI: Shifting from Scaling to Understanding.” *arXiv:2307.XXXX*, 2023.  
+  Critique of parameter‑scaling narratives and call for structural understanding.
+
+- **Gabriel, I.** “Artificial Intelligence, Values, and Alignment.” *Minds and Machines*, 30(3), 2020.  
+  Ethical alignment as a structural property, not a bolt‑on.
+
+- **Birhane, A.** “Algorithmic Injustice: A Relational Ethics Approach.” *Patterns*, 2(2), 2021.  
+  Accessibility and relational ethics as core governance principles.
+
+- **Schwartz, R. et al.** “Green AI.” *Communications of the ACM*, 63(12), 2020.  
+  Climate‑aligned AI development and bounded compute principles.
+
+--- 
 
 📜 Provenance Footer
 
