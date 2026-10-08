@@ -1,0 +1,143 @@
+\documentclass[12pt]{article}
+\usepackage{amsmath, amssymb, amsthm}
+
+\title{VGASP Snowman: Invariant Proofs}
+\author{Borealis S. Hedling}
+\date{Version 1.0 (2026-10-08)}
+
+\begin{document}
+\maketitle
+
+\section*{Overview}
+This document provides formal proofs for invariant behavior in the VGASP Snowman
+system. Invariants are governed by the invariant tensor $I_{ij}$, which encodes
+identity, symmetry, and canonical surface constraints. We prove:
+
+\begin{itemize}
+    \item invariants are preserved under roll
+    \item invariants restrict stack geometry
+    \item invariants forbid premature decoration
+    \item invariants couple deterministically to curvature and holonomy
+\end{itemize}
+
+All proofs rely on tensor definitions in \texttt{vgasp-snowman-math.tex}.
+
+\section{Preliminaries}
+
+\subsection{Invariant Tensor}
+The invariant tensor $I_{ij}$ is defined as a rank-2 symmetric tensor satisfying:
+\[
+I_{ij} = I_{ji}, \qquad \nabla_k I_{ij} = 0.
+\]
+The covariant constancy condition enforces identity preservation across all
+allowed Snowman operations.
+
+\subsection{Operator Definitions}
+Let $\mathcal{R}$, $\mathcal{S}$, and $\mathcal{D}$ denote the roll, stack, and
+decorate operators respectively. Each operator acts on a geometric state
+$\Sigma$.
+
+\[
+\mathcal{R}: \Sigma \rightarrow \Sigma', \qquad
+\mathcal{S}: \Sigma' \rightarrow \Sigma'', \qquad
+\mathcal{D}: \Sigma'' \rightarrow \Sigma'''.
+\]
+
+\section{Invariant Preservation Under Roll}
+
+\begin{lemma}
+Roll preserves invariant surfaces.
+\end{lemma}
+
+\begin{proof}
+Roll modifies curvature $K_{ij}$ and holonomy $H_{ijk}$ but does not alter
+$I_{ij}$. Since $\nabla_k I_{ij} = 0$, any deformation induced by roll must
+satisfy:
+\[
+\mathcal{L}_{\mathcal{R}} I_{ij} = 0,
+\]
+where $\mathcal{L}$ denotes the Lie derivative. Because roll is defined to be
+tangent to invariant surfaces, the induced flow preserves $I_{ij}$.
+\end{proof}
+
+\section{Invariant Restrictions on Stack}
+
+\begin{lemma}
+Stacking is only allowed on curvature-invariant surfaces.
+\end{lemma}
+
+\begin{proof}
+Stack requires alignment of centers of mass. Let $n^i$ be the surface normal.
+Curvature-invariant surfaces satisfy:
+\[
+I_{ij} n^i n^j = \text{constant}.
+\]
+If stack occurs on a non-invariant surface, the identity constraint is violated:
+\[
+\delta I_{ij} \neq 0.
+\]
+Since $\nabla_k I_{ij} = 0$, any non-zero variation contradicts the definition
+of invariant surfaces. Therefore stack is forbidden unless the surface satisfies
+the curvature-invariant condition.
+\end{proof}
+
+\section{Invariant Prohibition of Premature Decoration}
+
+\begin{theorem}
+Decoration cannot occur before stack.
+\end{theorem}
+
+\begin{proof}
+Decoration modifies surface geometry via a local operator $\mathcal{D}$ acting
+on $\Sigma''$. Let $\gamma$ be a decoration curve. Decoration requires:
+\[
+I_{ij} \gamma^i \gamma^j = \text{constant}.
+\]
+Before stack, curvature $K_{ij}$ and holonomy $H_{ijk}$ are not stabilized.
+Thus $\gamma$ is not guaranteed to lie on an invariant surface. If decoration
+occurs prematurely, the identity constraint is violated:
+\[
+\mathcal{L}_{\mathcal{D}} I_{ij} \neq 0.
+\]
+Therefore decoration is forbidden until stack stabilizes invariant surfaces.
+\end{proof}
+
+\section{Invariant Coupling to Curvature and Holonomy}
+
+\begin{theorem}
+Invariant surfaces couple deterministically to curvature and holonomy.
+\end{theorem}
+
+\begin{proof}
+Curvature-invariant surfaces satisfy:
+\[
+I_{ij} K^{ij} = \kappa,
+\]
+for constant $\kappa$. Holonomy-invariant surfaces satisfy:
+\[
+I_{ij} H^{ijk} = 0.
+\]
+Since both conditions derive from contractions of $I_{ij}$ with other tensors,
+and since $I_{ij}$ is covariantly constant, the coupling is deterministic:
+\[
+\nabla_m (I_{ij} K^{ij}) = 0, \qquad
+\nabla_m (I_{ij} H^{ijk}) = 0.
+\]
+Thus invariant surfaces constrain curvature and holonomy in a manner that is
+independent of operator history.
+\end{proof}
+
+\section*{Conclusion}
+We have shown that invariant surfaces:
+
+\begin{itemize}
+    \item are preserved under roll
+    \item restrict stack geometry
+    \item forbid premature decoration
+    \item couple deterministically to curvature and holonomy
+\end{itemize}
+
+These results form the foundation for dissipation proofs and JSON operator
+validation.
+
+\end{document}
