@@ -220,6 +220,169 @@ Taiwan Semiconductor Manufacturing Company. (2024). TSMC corporate sustainabilit
 
 ---
 
+Appendix A — Geopolitical Rebranding of AI Existential Risk:
+Manufacturing‑Driven Ecological Destabilization as the Empirical Threat
+
+A.1 Overview
+
+Public discourse frequently frames artificial intelligence as an “existential threat” in terms of hypothetical future autonomy, runaway agency, or catastrophic misuse. These narratives are widely circulated in media, policy discussions, and industry communications. However, these claims often overshadow the empirically measurable, currently unfolding, and ecologically grounded existential threat associated with AI hardware manufacturing.
+
+This appendix examines how geopolitical narratives rebrand AI existential risk, shifting attention away from the material, industrial, and environmental processes that constitute the real, quantifiable danger.
+
+---
+
+A.2 The Geopolitical Narrative: AI as Strategic Competition
+
+Across governments and industry, AI is frequently described as:
+
+- a strategic asset  
+- a national security priority  
+- a competitive advantage  
+- a domain of global rivalry  
+
+This framing emphasizes:
+
+- control of semiconductor supply chains  
+- access to advanced accelerators  
+- export controls  
+- fabrication sovereignty  
+- datacentre expansion  
+
+The existential threat is portrayed as falling behind in an imagined “AI race.”
+
+This narrative is competitive, zero‑sum, and future‑oriented.
+
+---
+
+A.3 The Ecological Reality: AI as a Manufacturing‑Driven Stressor
+
+The lifecycle math presented in this preprint demonstrates that the actual existential threat posed by AI systems is not hypothetical future autonomy, but the current, accelerating ecological burden created by:
+
+- copper and cobalt mining  
+- ultrapure water extraction  
+- fluorinated gas emissions  
+- HBM die scaling  
+- global supply‑chain transport  
+- fabrication energy consumption  
+- chemical waste streams  
+
+These impacts are:
+
+- measurable  
+- cumulative  
+- cross‑border  
+- non‑local  
+- non‑hypothetical  
+- accelerating superlinearly  
+
+The existential threat is ecological destabilization, not competitive disadvantage.
+
+---
+
+A.4 Why the Geopolitical Narrative Dominates
+
+The geopolitical narrative is more visible because:
+
+- datacentres are local and politically salient  
+- semiconductor access is framed as strategic leverage  
+- manufacturing is offshored and invisible  
+- ecological impacts are distributed globally  
+- supply chains cross multiple jurisdictions  
+- environmental harm lacks a single point of accountability  
+
+As a result, the public conversation focuses on who controls AI, not what AI manufacturing does to the planet.
+
+---
+
+A.5 Empirical Evidence of the Ecological Threat
+
+The lifecycle model shows:
+
+Manufacturing Emissions
+- 1.8 million tons CO₂e in 2025  
+- 21.6 million tons CO₂e in 2030  
+(TechInsights, 2025)
+
+HBM Scaling
+- ~40 dies (2024)  
+- ~250 dies (2030)
+
+Fabrication Energy
+- 25.55 TWh/year (TSMC, 2024)
+
+Mining Intensity
+- copper constitutes 83% of mineral mass for datacentre expansion  
+(Amoah et al., 2026)
+
+Superlinear Growth
+\[
+E(t) \sim t^k, \quad k > 1
+\]
+
+These values indicate a material existential threat:  
+ecosystem destabilization driven by manufacturing complexity and resource extraction.
+
+---
+
+A.6 Rebranding the Threat: From Ecology to Autonomy
+
+The geopolitical narrative reframes existential risk as:
+
+- runaway AI  
+- loss of control  
+- strategic vulnerability  
+- competitive disadvantage  
+
+This rebranding shifts attention away from:
+
+- mining expansion  
+- water depletion  
+- chemical waste  
+- fabrication emissions  
+- supply‑chain carbon  
+- ecological collapse curves  
+
+The result is a public discourse that treats AI as a future cognitive hazard, rather than a current industrial hazard.
+
+---
+
+A.7 Consequences of Misaligned Narratives
+
+When existential risk is framed as hypothetical autonomy rather than ecological destabilization:
+
+- policy focuses on model governance instead of manufacturing sustainability  
+- investment flows toward scaling compute rather than reducing embodied carbon  
+- datacentre electricity becomes the visible villain while chips escape scrutiny  
+- ecological harm accelerates unchecked  
+- superlinear emissions growth remains unaddressed  
+
+This misalignment delays meaningful intervention.
+
+---
+
+A.8 Toward Sustainable Geometric AI
+
+The findings of this preprint suggest that sustainable AI requires:
+
+- geometric efficiency improvements  
+- reduced HBM complexity  
+- alternative memory architectures  
+- low‑impact fabrication processes  
+- shorter supply chains  
+- ecological accounting in hardware design  
+- lifecycle‑aware regulatory frameworks  
+
+These interventions target the actual existential threat:  
+manufacturing‑driven ecological destabilization.
+
+---
+
+A.9 Conclusion
+
+The geopolitical narrative of an “AI race” obscures the empirically grounded existential threat posed by AI hardware manufacturing. The lifecycle math demonstrates that ecological destabilization — not hypothetical autonomy — constitutes the primary risk. Addressing this requires shifting public, industrial, and policy attention toward sustainable geometric AI and the environmental realities of semiconductor production.
+
+---
+
 🧾 Provenance
 
 This preprint was collaboratively generated with Microsoft Copilot using academically grounded sources. All data derives from publicly documented environmental LCA and semiconductor manufacturing reports. No proprietary datasets or unverifiable claims were used.
