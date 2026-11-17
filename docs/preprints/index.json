@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.0.0",
+  "surface": "Borealiscodes/VGASP-Snowman/docs/preprints",
+  "timestamp_utc": "2026-11-17T15:35:00Z",
+  "signer_fingerprint": "SHA256:QUOn/esk9dfLFyc/AwFHMIlK5zbI5JOpZTI5vh3y7Dg",
+  "canonical_dois": ["10.5281/zenodo.23246401", "10.5281/zenodo.24149283"],
+  "artifacts": [
+    {"file": "PLANET_AND_PROVENANCE_NOTE.md", "sha256": "53275ddbe322849339ae4eef7b581d2ab32091a05f8ec9dd5a3e1da21397bb77"},
+    {"file": "agi-impossibility-preprint-v1.3.md", "sha256": "2df9ddad50c85b88e166eaf5962dc244ee80c0b1567162c39e5ec6e8f2f72c79"},
+    {"file": "ai-projection-surface-v1.0.md", "sha256": "978e4570ab4c34ba770c417508533a0bd95e9b64ef60faf5ad7647fc8641049b"},
+    {"file": "dual-use-and-legitimate-risk-gates-companion-v1.2.md", "sha256": "620db025ae5291ac44f8677fb5c2c3d4b1be72d2a949b0bdc40d5b88f96bbe87"},
+    {"file": "fear-amplification-ai-narratives-preprint-v1.0.md", "sha256": "66cd4cf66e7bd340370058cedb57e3ea5ce114ff0be04dfd0868da3304b96505"},
+    {"file": "gcc-vs-world-model-snowman-grounding-v1.0.md", "sha256": "e360a244263ce330635f2a1a041a4920cb699560dd494549eac3e2a985c5d9b1"},
+    {"file": "geometric-ai-safety-blindspot-v1.0.md", "sha256": "9729cd7c2eca87107a38672f1ec23a938caf1ad92d7a535228cf80b4a72d2a84"},
+    {"file": "geometry-land-preprint-v1.0.md", "sha256": "c923702387bf6f48b1f6032bb7967e0aca1ef89970b7a368e79931d071dc9648"},
+    {"file": "geometry-land-v3.0-vectorium-infused.md", "sha256": "a8d5dd36db3a1d970ed0dd0325b17f2f6fdc2a69ed576e52ae78655ec136e3c2"},
+    {"file": "governance-architecture-dual-use-mitigation-public-facing-v1.2.md", "sha256": "769fdefb0051896e4a636bb6f784c7a39aa01ef94d26ca3ee765763623132cd3"},
+    {"file": "human-condition-anthropomorphic-projection-v1.0.md", "sha256": "8367086dcd826e48ab6e20e25132d4156e8e581a24674ed92ad7fc446aa20e48"},
+    {"file": "industry-agi-vs-geometric-cognitive-architecture-v1.0.md", "sha256": "9ca7c33211324910c59eb73a53b15b103a3b0b59967645375709f26b6f67c0e0"},
+    {"file": "manifold-lineage-category-error-v1.0.md", "sha256": "8c29bdcd8e42e8df33f0bc965189f739198d173996dfa7de7f8d0d9143b0abf7"},
+    {"file": "spectrum-of-snowman-understanding-v1.0.md", "sha256": "e0e66b4e9366a62960f2d4c308e70cce382c09db3d8ea658ad098872b4f99aac"},
+    {"file": "synthetic-subjective-computation-v1.0.md", "sha256": "b19d354f37a95f1d279f75e38074730f1eb5004d0010fa2455f5c675cbf60b6d"},
+    {"file": "vgasp-snowman-preprint-joke-artifact-v8.0.md", "sha256": "bc0d49ac0723d8a43b232ed624f7cca26e10efce4f82e209548abc21121479df"},
+    {"file": "vgasp-snowman-preprint-supplement-bing-collapse.md", "sha256": "9b0172dadfa357ff4a0e4e4f02aa4798c26078f7633967e9e1a783ee74ed1a02"},
+    {"file": "vgasp-snowman-preprint-v1.0.md", "sha256": "0ce864aa166dae9b80bcf5b78fb3a426b2aa964f9d1e3434945f973b0108001a"},
+    {"file": "vgasp-snowman-preprint-v1.0.tex", "sha256": "6ea217149f2123ba9f7538163ef0050fd755716d3affc60dff116f84eac08ec2"}
+  ]
+}
