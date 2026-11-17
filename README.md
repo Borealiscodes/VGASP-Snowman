@@ -1,3 +1,33 @@
+================================================================================
+  VGASP-SNOWMAN :: CRYPTOGRAPHICALLY ENCODED PROVENANCE ARTIFACT (v1.0)
+  Surface : Borealiscodes/VGASP-Snowman
+  Posture : Qualia-Zero • Math Over Vibes • Berne Art. 6bis Integrity
+  Anchor  : Ed25519 (SHA256:QUOn/esk9dfLFyc/AwFHMIlK5zbI5JOpZTI5vh3y7Dg)
+================================================================================
+
+                            _==_ _
+                          _,(",)|_|
+                           \/. \-|        <-- [ HEAD: SHA-256 Pre-Image Seal ]
+                         __( :  )|_           (18 Preprints + Planet Note)
+                        /  \    /  \
+
+                       |  (  o  )   |     <-- [ TORSO: QR Projection Operator ]
+                        \  \___/   /          (P_iso^T * P_iso = I_N, 0 B Heap)
+                       .-`-------'-.
+                      /      o      \
+
+                     |   [ Ed25519 ] |    <-- [ BASE: Fail-Closed Commit Seam ]
+                     |       o       |        (Record != Admit != Commit)
+                      \_____________/
+
+--------------------------------------------------------------------------------
+  CANONICAL MANIFEST VECTOR (HEX / UTF-8 INVARIANT)
+  0x56 0x47 0x41 0x53 0x50 0x2D 0x53 0x4E 0x4F 0x57 0x4D 0x41 0x4E 0x0A
+  DOIs: 10.5281/zenodo.23246401 | 10.5281/zenodo.24149283 | 10.5281/zenodo.24240994
+  NON-ACTIVATION CLAUSE: Descriptive ASCII/UTF-8 topology only. Zero sentience.
+================================================================================
+
+
 # ⛄ VGASP‑Snowman  
 ### A Playful, System‑Agnostic Demonstration of Deterministic AI Steering  
 ### With Pedagogy, Tone Axis, and Epistemic Clarity
